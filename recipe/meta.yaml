@@ -17,7 +17,7 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python
     - pip
     - setuptools
     - pandas >=1.0.4
@@ -28,7 +28,7 @@ requirements:
     - python-dateutil
     - tqdm
   run:
-    - python >=3.6
+    - python
     - setuptools
     - matplotlib-base
     - pandas >=1.0.4
