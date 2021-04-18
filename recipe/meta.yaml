@@ -17,7 +17,10 @@ build:
     - {{ SP_DIR|replace("\\", "/") }}/stan_model/prophet_model.pkl
 
 requirements:
+  build:
+    - m2w64-toolchain  # [win]
   host:
+    - m2w64-toolchain  # [win]
     - python
     - pip
     - setuptools
@@ -29,6 +32,7 @@ requirements:
     - python-dateutil
     - tqdm
   run:
+    - m2w64-toolchain  # [win]
     - python
     - setuptools
     - matplotlib-base
