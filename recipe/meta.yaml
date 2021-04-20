@@ -25,7 +25,8 @@ requirements:
     # setup.py imports fbprophet.models.StanBackendEnum, triggering
     # fbprophet/__init__.py and thus making the runtime dependencies
     # also build-time dependencies.
-    - python
+    #
+    # These requirements are copied from python/requirements.txt
     - cython >=0.22
     - cmdstanpy ==0.9.68
     - pystan ~=2.19.1.1
