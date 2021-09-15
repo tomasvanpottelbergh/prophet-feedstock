@@ -29,7 +29,7 @@ requirements:
     # These requirements are copied from python/requirements.txt
     - cython >=0.22
     - cmdstanpy ==0.9.68
-    - pystan ~=2.19.1.1
+    - pystan ==2.19.1.*
     - numpy >=1.15.4
     - pandas >=1.0.4
     - matplotlib-base >=2.0.0
@@ -43,7 +43,7 @@ requirements:
     - python
     - cython >=0.22
     - cmdstanpy ==0.9.68
-    - pystan ~=2.19.1.1
+    - pystan ==2.19.1.*
     - numpy >=1.15.4
     - pandas >=1.0.4
     - matplotlib-base >=2.0.0
