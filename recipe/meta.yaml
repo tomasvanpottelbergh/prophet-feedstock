@@ -19,6 +19,8 @@ build:
 requirements:
   host:
     - python
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+    - pybind11                               # [build_platform != target_platform]
     - pip
     # Explanation:
     #
